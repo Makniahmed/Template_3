@@ -1,0 +1,66 @@
+/* team Section */
+.team-content {
+    overflow: hidden;
+}
+.team-item {
+    width: 30%;
+    float: left;
+    background-color: #E8E8E8;
+    padding: 40px 10px;
+    text-align: center;
+}
+.team-item .team-image {
+    width: 90% ;
+    margin: auto;
+    position: relative;
+}
+.team-item .team-image img{
+    width: 100%;
+}
+.team-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .5s ease-in-out;
+}
+.team-overlay a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: var(--maincolor);
+    color: #FFF;
+    margin-left: auto;
+}
+.team-overlay a i {line-height: 40px;}
+.team-info h3 {
+    color: #222;
+    margin: 10px 0;
+    transition: color .5s ease-in-out;
+}
+.team-info span {
+    color: #999;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: color .5s ease-in-out;
+}
+.team-item:hover .team-overlay { 
+    opacity: 1;
+    visibility: visible;
+}
+.team-item.tb-effect {
+    z-index: 1;
+}
+.team-item:hover .team-info h3 {
+    color: #FFF;
+}
+.team-item:hover .team-info span {
+    color: var(--maincolor);
+}
+.team-item.mg {
+    margin: 0 5%;
+}

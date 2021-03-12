@@ -1,0 +1,60 @@
+/* Header*/
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+.header .logo {
+    width: 40%;
+    float: left;
+}
+.header .logo img {
+    width: 20%;
+    margin-top: 15px;
+}
+.header .nav {
+    width: 60%;
+    list-style: none;
+    float: left;
+    text-align: right;
+}
+.header .nav > li {
+    display: inline-block;
+    
+}
+.header .nav > li > a {
+    color: #FFF;
+    text-decoration: none;
+    display: block;
+    padding: 25px 15px;
+    font-size: 15px;
+}
+.header .nav > li > a:after , .header .nav > li > a.active:after {
+    content: "";
+    display: block;
+    height: 3px;
+    margin-top: 2px;
+    background-color: var(--maincolor);
+    transition: width .5s;
+}
+.header .nav > li > a:after{width: 0;}
+.header .nav > li > a.active:after {width: 100%;}
+.header .nav > li > a:hover:after {width:100%}
+.dropdown{position: relative;}
+
+.dropdown-menu{
+    position: absolute;
+    text-align: center;
+    background-color: var(--maincolor);
+    width: 150px;
+    left: -50px;
+    top: 70%;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 1s ;
+}
+.nav .dropdown:hover .dropdown-menu{
+    opacity: 1;
+    visibility: visible;
+}
+.dropdown-menu a {display: block;color: #FFF;padding: 10px;}

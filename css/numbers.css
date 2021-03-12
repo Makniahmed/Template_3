@@ -1,0 +1,22 @@
+/* Numbers Section*/
+.numbers {
+    position: relative;
+    background-image: url(../images/background/background2.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 300px;
+}
+.numbers-item {
+    width: 25%;
+    float: left;
+    color: #FFF;
+    text-align: center;
+    padding: 100px 0;
+}
+.numbers-item .icon {
+    color: var(--maincolor);
+} 
+.numbers-item-title {
+    font-weight: bold;
+    font-size: 30px;
+}

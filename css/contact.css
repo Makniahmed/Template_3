@@ -1,0 +1,15 @@
+/* contact Section */
+.contact-item {width: 30%; float: left; text-align: center;}
+.contact-item i {color: var(--maincolor);}
+.contact-item h3 {margin: 20px 0;}
+.contact-item span {color: #999;}
+.contact-forms {width: 70%;margin-left: 60px;}
+.contact-forms input ,
+.contact-forms textarea {
+    padding: 10px ;
+    width: 100%;
+    background-color: #E8E8E8;
+    border: none;
+    margin:  20px 10px;
+    font-size: 18px;
+}

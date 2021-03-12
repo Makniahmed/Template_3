@@ -1,0 +1,23 @@
+/* footer section*/
+.footer {
+    background-color:#1c1d21 ;
+    text-align: center;
+    padding: 60px 0;
+}
+.footer ul li {display: inline-block;}
+.footer ul li a {
+    display: block; 
+    width: 50px;
+    height: 50px;
+    background-color: var(--maincolor);
+    color: #FFF;
+    margin: 0 5px;
+    border-radius: 50%;
+}
+.footer ul li a i { line-height: 50px;}
+.footer p {
+    color: #999;
+    font-size: 15px;
+    text-transform: capitalize;
+    margin-top: 25px;
+}

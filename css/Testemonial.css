@@ -1,0 +1,40 @@
+/* Testemonial Section*/
+
+.Testemonial {
+    position: relative;
+    background-image: url(../images/background/background3.webp) ;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+
+}
+.Testemonial-content {
+    width: 90%;
+    margin: auto ;
+}
+.Testemonial-item {width: 50%; 
+    float: left; 
+    padding: 120px 0;
+    color: #FFF;
+}
+.Testemonial-header {
+    padding: 10px 2px 40px 90px;
+    position: relative;
+}
+.Testemonial-item img {
+    position: absolute;
+    left: 3px;
+    top: 6px;
+    border-radius: 50%;
+}
+.Testemonial-item h3 {
+    margin: 5px 0;
+
+}
+.Testemonial-item span {
+    color: var(--maincolor);
+}
+.Testemonial-desc { 
+    line-height: 1.6;
+    font-size: 17px;
+}

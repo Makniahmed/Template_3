@@ -1,0 +1,14 @@
+/* blog Section */
+.blog {background-color: #E8E8E8;}
+
+.blog-item {width: 30%; float: left; margin:auto; background: #FFF; padding: 20px 0 20px 25px;}
+.blog-item.mg {margin: 0 5%;}
+.blog-image { width: 360px; height: 200px;}
+.blog-image img {width: 100%;}
+.blog-info {margin:20px 0; width: 90%;}
+.blog-info i {color: var(--maincolor);}
+.blog-info i:nth-child(2) {margin-left:10px;}
+.blog-info i:nth-child(3) {margin-left:10px;}
+.blog-desc {font-size: 18px; width: 90%;}
+.blog-desc p {margin: 20px 0;}
+.blog-desc a {color: var(--maincolor);}
